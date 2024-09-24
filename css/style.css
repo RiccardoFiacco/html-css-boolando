@@ -9,6 +9,7 @@ h5{
 }
 p{
     display: inline-block;
+    padding: 2px 5px;
 }
 /* debug rules*/
 
@@ -30,13 +31,13 @@ p{
 }
 
 .p50{ 
-    bottom: 10px;
+    bottom: 40px;
     left: 0px;
 }
+
 .sostenibility{
-    bottom: 10px;
-    left: 40px;
-    
+    bottom: 40px;
+    left: 50px;  
 }
 
 .heart{
