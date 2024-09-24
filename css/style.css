@@ -62,7 +62,10 @@ a{
     padding: 10px;
 }
 /*layout rules*/
-
+.div-mod{
+    bottom: 40px;
+    left: 0px;
+}
 .df{
     display: flex;
     justify-content: space-around;
