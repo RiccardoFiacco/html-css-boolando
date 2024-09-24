@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+h5{
+    text-transform:uppercase
+}
 /* debug rules*/
 
 .debug {
@@ -31,7 +33,10 @@
     gap:10px;
 }
 
-.col-16{
+.red{
+    color: red;
+}
+.col-1_3{
     width: calc(100%/3 - 10px);   
 } 
 
