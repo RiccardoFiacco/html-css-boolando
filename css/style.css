@@ -11,13 +11,29 @@ p{
     display: inline-block;
     padding: 2px 5px;
 }
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 /* debug rules*/
 
 .debug {
     border: 1px dashed black ;
 }
+/*header rules*/
+.nav-bar{
+    background-color: orangered;
+    padding:10px 0px;
+}
+.main-menu{
+    gap: 10px;
+}
 
 /*body rules*/
+
 .container{
     width: 100%; 
     display: flex;
@@ -47,6 +63,11 @@ p{
 }
 /*layout rules*/
 
+.df{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .row{
     width: 80%;
     display: flex;
