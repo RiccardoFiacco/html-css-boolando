@@ -1,0 +1,55 @@
+/*reset rules*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* debug rules*/
+
+.debug {
+    border: 1px dashed black ;
+}
+
+/*body rules*/
+.container{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+   
+}
+/*layout rules*/
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.col-16{
+    width: calc(100%/3 - 10px);   
+} 
+
+.w-100 {
+    width: 100%;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.min-h-80 {
+    min-height: 80px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
