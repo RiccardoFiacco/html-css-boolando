@@ -31,7 +31,17 @@ a{
 .main-menu{
     gap: 10px;
 }
-
+.footer-bar{
+    background-color: orangered;
+    padding:10px 0px;
+}
+.div-foot.df{
+    justify-content: space-between; 
+    width: 80%;
+}
+.first-ul{
+    display: flex;
+}
 /*body rules*/
 
 .container{
@@ -39,7 +49,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
    
 }
 .modify-position{
@@ -99,13 +108,6 @@ a{
     min-height: 80px;
 }
 
-.mt-10{
-    margin-top: 10px;
-}
-.mb-10{
-    margin-bottom: 10px;
-}
-
 .bg-red{
     background-color: red;
 }
@@ -123,4 +125,10 @@ a{
 }
 .pa{
     position: absolute;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-40{
+    padding-bottom: 40px;
 }
